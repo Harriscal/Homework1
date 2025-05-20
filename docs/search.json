@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Homework1.html",
+    "href": "Homework1.html",
+    "title": "Getting to Know Data Science",
+    "section": "",
+    "text": "From my point of view, being a data scientist involves building models and interpreting the results. They will also need skills in engineering (infrastructure, cloud systems), analysis (visualization, storytelling), and modeling/inference (prediction, explanation) to accomplish their company’s requirements.\n\n\n\n\nBoth rely on hypothesis testing and regression\nBoth use statistical techniques to understand data and build models from real-world problems\nBoth must have good communication skills to communicate their results to stakeholders\nData Scientist\n\nMainly focus on the business problem and the result\nAble to work with both structured and unstructured data\nAble to work with large amounts of data (can be messy) in various formats\n\nStatistician\n\nMainly focus on modeling\nUsually only works with structured data\nUsually only works with a small amount of data that has been cleaned in text file formats\n\n\n\n\n\nIn relation to the two areas, I see myself more aligned with the role of a statistician. I enjoy focusing on hypothesis testing and modeling, and I prefer the clarity and structure that comes with working on well-defined, cleaned datasets rather than spending most of my time wrangling large, messy data across systems. The statistician’s analytical depth appeals to me more than the broad, tool-heavy demands of a data scientist."
+  },
+  {
+    "objectID": "Homework1.html#reflections-on-data-scientists-vs.-statisticians",
+    "href": "Homework1.html#reflections-on-data-scientists-vs.-statisticians",
+    "title": "Getting to Know Data Science",
+    "section": "",
+    "text": "From my point of view, being a data scientist involves building models and interpreting the results. They will also need skills in engineering (infrastructure, cloud systems), analysis (visualization, storytelling), and modeling/inference (prediction, explanation) to accomplish their company’s requirements.\n\n\n\n\nBoth rely on hypothesis testing and regression\nBoth use statistical techniques to understand data and build models from real-world problems\nBoth must have good communication skills to communicate their results to stakeholders\nData Scientist\n\nMainly focus on the business problem and the result\nAble to work with both structured and unstructured data\nAble to work with large amounts of data (can be messy) in various formats\n\nStatistician\n\nMainly focus on modeling\nUsually only works with structured data\nUsually only works with a small amount of data that has been cleaned in text file formats\n\n\n\n\n\nIn relation to the two areas, I see myself more aligned with the role of a statistician. I enjoy focusing on hypothesis testing and modeling, and I prefer the clarity and structure that comes with working on well-defined, cleaned datasets rather than spending most of my time wrangling large, messy data across systems. The statistician’s analytical depth appeals to me more than the broad, tool-heavy demands of a data scientist."
+  },
+  {
+    "objectID": "Homework1.html#iris-dataset-analysis-in-r",
+    "href": "Homework1.html#iris-dataset-analysis-in-r",
+    "title": "Getting to Know Data Science",
+    "section": "Iris Dataset Analysis in R",
+    "text": "Iris Dataset Analysis in R\nThis an analysis on the Iris dataset, specifically on the variable Petal.Width. First, will store the density of the variable Petal.Width into a object called y.\n\ny &lt;- density(iris$Petal.Width)\n\nThen, will find the class, type, and structure of y using functions str(), typeof(), and str().\n\n#class\nclass(y)\n\n[1] \"density\"\n\n#type\ntypeof(y)\n\n[1] \"list\"\n\n#structure\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nLastly, will plot y."
+  }
+]
