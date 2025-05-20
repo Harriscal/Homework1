@@ -1,0 +1,69 @@
+---
+title: "Getting to Know Data Science"
+author: "Calista Harris"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+## Reflections on Data Scientists vs. Statisticians
+
+### Being a Data Scientist
+
+From my point of view, being a data scientist involves building models and interpreting the results. They will also need skills in engineering (infrastructure, cloud systems), analysis (visualization, storytelling), and modeling/inference (prediction, explanation) to accomplish their company's requirements.
+
+### Similarities and Differences
+
+-   **Both** rely on hypothesis testing and regression
+
+-   **Both** use statistical techniques to understand data and build models from real-world problems
+
+-   **Both** must have good communication skills to communicate their results to stakeholders
+
+-   **Data Scientist**
+
+    -   Mainly focus on the business problem and the result
+
+    -   Able to work with both structured and unstructured data
+
+    -   Able to work with large amounts of data (can be messy) in various formats
+
+-   **Statistician**
+
+    -   Mainly focus on modeling
+
+    -   Usually only works with structured data
+
+    -   Usually only works with a small amount of data that has been cleaned in text file formats
+
+### Viewing Myself
+
+In relation to the two areas, I see myself more aligned with the role of a statistician. I enjoy focusing on hypothesis testing and modeling, and I prefer the clarity and structure that comes with working on well-defined, cleaned datasets rather than spending most of my time wrangling large, messy data across systems. The statistician’s analytical depth appeals to me more than the broad, tool-heavy demands of a data scientist.
+
+## Iris Dataset Analysis in R
+
+This an analysis on the Iris dataset, specifically on the variable Petal.Width. First, will store the density of the variable Petal.Width into a object called *y*.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Then, will find the class, type, and structure of *y* using functions `str()`, `typeof()`, and `str()`.
+```{r}
+#class
+class(y)
+
+#type
+typeof(y)
+
+#structure
+str(y)
+```
+ 
+Lastly, will plot *y*.
+```{r}
+#| echo: false # Hide the R code in the final document 
+
+plot(y, main = "Density of Petal Length", xlab = "Petal Length")
+```
